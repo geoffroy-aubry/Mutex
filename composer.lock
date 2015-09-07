@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e36f92ffb78d4c3a2c8fac99c708a1f2",
+    "packages": [
+        {
+            "name": "geoffroy-aubry/helpers",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geoffroy-aubry/Helpers.git",
+                "reference": "7c89551d76ede4a9b249072929c0c12243af645a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geoffroy-aubry/Helpers/zipball/7c89551d76ede4a9b249072929c0c12243af645a",
+                "reference": "7c89551d76ede4a9b249072929c0c12243af645a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "2.8.0",
+                "phpmd/phpmd": "2.0.*",
+                "phpunit/phpunit": ">=3.7",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "1.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GAubry\\Helpers": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Geoffroy Aubry",
+                    "email": "geoffroy.aubry@free.fr"
+                }
+            ],
+            "description": "Some helpers used in several personal packages and a Debug class useful for don't forgetting where debug traces are.",
+            "keywords": [
+                "debug",
+                "helpers",
+                "tools"
+            ],
+            "time": "2015-09-07 22:08:54"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "geoffroy-aubry/logger",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geoffroy-aubry/Logger.git",
+                "reference": "c4bdba86091ab414f523a1e33a0f85cd1541635a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geoffroy-aubry/Logger/zipball/c4bdba86091ab414f523a1e33a0f85cd1541635a",
+                "reference": "c4bdba86091ab414f523a1e33a0f85cd1541635a",
+                "shasum": ""
+            },
+            "require": {
+                "geoffroy-aubry/helpers": "1.*",
+                "php": ">=5.3.3",
+                "psr/log": "1.0.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "2.8.0",
+                "phpmd/phpmd": "1.4.*",
+                "phpunit/phpunit": ">=3.7",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "1.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GAubry\\Logger": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Geoffroy Aubry",
+                    "email": "geoffroy.aubry@free.fr"
+                }
+            ],
+            "description": "PSR-3 logger for adding colors and indentation on PHP CLI output.",
+            "keywords": [
+                "bash color logging",
+                "color logging",
+                "indent logging",
+                "logger",
+                "psr-3"
+            ],
+            "time": "2013-07-03 09:20:17"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

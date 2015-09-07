@@ -1,0 +1,24 @@
+{
+    "name":         "geoffroy-aubry/mutex",
+    "description":  "Mutex & Semaphore PHP implementations both based only on flock() function.",
+    "keywords":     ["mutex", "semaphore", "flock"],
+    "type":         "library",
+    "license":      "LGPL-3.0+",
+    "authors":      [
+        {
+            "name":     "Geoffroy Aubry",
+            "email":    "geoffroy.aubry@free.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "geoffroy-aubry/helpers": "~1.5.0",
+        "psr/log": "1.0.0"
+    },
+    "require-dev": {
+        "geoffroy-aubry/logger": "1.*"
+    },
+    "autoload": {
+        "psr-0": {"GAubry\\Mutex": "src/"}
+    }
+}
