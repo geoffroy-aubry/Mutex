@@ -4,24 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e36f92ffb78d4c3a2c8fac99c708a1f2",
+    "hash": "ef90db5415ed9d2e222ba04f00aae7be",
+    "content-hash": "453a9b3cf641af212b33a984de320063",
     "packages": [
         {
             "name": "geoffroy-aubry/helpers",
-            "version": "v1.5.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geoffroy-aubry/Helpers.git",
-                "reference": "7c89551d76ede4a9b249072929c0c12243af645a"
+                "reference": "38a51e50d856d42114ff6d96194afc6318675629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geoffroy-aubry/Helpers/zipball/7c89551d76ede4a9b249072929c0c12243af645a",
-                "reference": "7c89551d76ede4a9b249072929c0c12243af645a",
+                "url": "https://api.github.com/repos/geoffroy-aubry/Helpers/zipball/38a51e50d856d42114ff6d96194afc6318675629",
+                "reference": "38a51e50d856d42114ff6d96194afc6318675629",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.3",
+                "skleeschulte/base32": "^0.0.2"
             },
             "require-dev": {
                 "apigen/apigen": "2.8.0",
@@ -52,7 +54,7 @@
                 "helpers",
                 "tools"
             ],
-            "time": "2015-09-07 22:08:54"
+            "time": "2016-03-28 00:01:03"
         },
         {
             "name": "psr/log",
@@ -91,6 +93,57 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "skleeschulte/base32",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skleeschulte/php-base32.git",
+                "reference": "42b651598d42ca51c00a6e71d2587e64e6e80734"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skleeschulte/php-base32/zipball/42b651598d42ca51c00a6e71d2587e64e6e80734",
+                "reference": "42b651598d42ca51c00a6e71d2587e64e6e80734",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SKleeschulte\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Kleeschulte",
+                    "email": "stefan.kleeschulte@smk.biz",
+                    "homepage": "http://rays-blog.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base32 encoding and decoding class (RFC 4648, RFC 4648 extended hex, Crockford, z-base-32/Zooko).",
+            "homepage": "https://github.com/skleeschulte/php-base32",
+            "keywords": [
+                "base32",
+                "bcmath",
+                "bytestring",
+                "crockford",
+                "decode",
+                "encode",
+                "integer",
+                "rfc4686",
+                "z-base-32",
+                "zooko"
+            ],
+            "time": "2015-11-19 14:01:26"
         }
     ],
     "packages-dev": [
